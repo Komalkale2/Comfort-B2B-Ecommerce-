@@ -5,7 +5,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test"
+    "test": "react-scripts test",
+    "vercel-build": "npm run build"
   },
   "dependencies": {
     "axios": "^1.4.0",
