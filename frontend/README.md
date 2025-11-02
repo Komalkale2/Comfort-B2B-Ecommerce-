@@ -1,0 +1,1 @@
+Frontend: run npm install && npm start (create-react-app expected environment).

@@ -1,0 +1,2 @@
+import React, {useState} from 'react';
+export default function Contact(){ const [s,setS]=useState(''); return (<div className='container' style={{padding:30}}><h2>Contact</h2><form onSubmit={e=>{e.preventDefault(); setS('Thanks!');}}><input required placeholder='Name'/><input required placeholder='Email'/><textarea required placeholder='Message'/><button className='btn' type='submit'>Send</button></form>{s && <div>{s}</div>}</div>); }

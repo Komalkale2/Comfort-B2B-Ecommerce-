@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: komal-handmade-backend
+    env: node
+    plan: free
+    buildCommand: 'npm install'
+    startCommand: 'npm run start'
+    envVars:
+      - key: MONGO_URI
+        fromDatabase: NULL

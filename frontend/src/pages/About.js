@@ -1,0 +1,2 @@
+import React from 'react';
+export default function About(){ return (<div className='container' style={{padding:30}}><h2>About Komal's Handmade</h2><p>I am Komal... I make small-batch handmade items with love.</p></div>); }
