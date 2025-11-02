@@ -160,9 +160,3 @@ This project is licensed under the **MIT License** – feel free to use and modi
 ---
 
 > 💫 *"Handmade with code and creativity — just like every product in Komal Handmade."*
-
-```
-
----
-
-
